@@ -1,0 +1,20 @@
+{
+  "name": "popular_coding_questions_solution",
+  "version": "1.0.0",
+  "description": "This Repository contains all the important coding solutions, which may be asked in Mass Recruitment exams like <b>WIPRO elite NLTH,TCS Ninja</b> Online Tests etc and it also contains previous year solved Coding Questions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabh47/Popular_Coding_Questions_Solution.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabh47/Popular_Coding_Questions_Solution/issues"
+  },
+  "homepage": "https://github.com/saurabh47/Popular_Coding_Questions_Solution#readme"
+}
