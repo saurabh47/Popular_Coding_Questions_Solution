@@ -1,4 +1,5 @@
 ### Problem 110. Balanced Binary Tree (Easy): https://leetcode.com/problems/balanced-binary-tree/
+# hint: Perform inorder tarversal and check for each node if depth is greater than 1
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         ans = True

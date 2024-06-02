@@ -332,6 +332,25 @@ Output: 5
 Explanation: The last word is "World" with length 5.
 ```
 
+### [Problem 66. Plus One](https://leetcode.com/problems/plus-one/)
+
+Given a non-empty array of decimal digits representing a non-negative integer, increment one to the integer.
+
+```
+Input: digits = [1,2,3]
+Output: [1,2,4]
+
+Explanation: The array represents the integer 123. Incrementing by one gives 124.
+```
+
+### [Problem 67. Add Binary](https://leetcode.com/problems/add-binary/)
+
+```
+Input: a = "11", b = "1"
+Output: "100"
+Explanation: The sum of binary strings 11 and 1 is 100.
+```
+
 ### [Problem 69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 
 Given a non-negative integer x, compute and return the square root of x.
@@ -350,6 +369,16 @@ Given an array nums with n objects colored red, white, or blue, sort them in-pla
 Input: nums = [2,0,2,1,1,0]
 Output: [0,0,1,1,2,2]
 Explanation: The output is the array in the correct order.
+```
+
+### [Problem 78. Subsets](https://leetcode.com/problems/subsets/)
+
+Given an integer array nums of unique elements, return all possible subsets (the power set).
+
+```
+Input: nums = [1,2,3]
+
+Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
 ```
 
 ### [Problem 80 Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
@@ -446,6 +475,16 @@ Output: 3
 Explanation: The maximum depth is 3.
 ```
 
+### [Problem 107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+
+Given the root of a binary tree, return the bottom-up level order traversal of its nodes' values. (i.e., from left to right, level by level from leaf to root).
+
+```
+Input: root = [3,9,20,null,null,15,7]
+Output: [[15,7],[9,20],[3]]
+Explanation: The bottom-up level order traversal of the binary tree is [[15,7],[9,20],[3]].
+```
+
 ### [Problem 110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 
 Given a binary tree, determine if it is height-balanced.
@@ -454,6 +493,16 @@ Given a binary tree, determine if it is height-balanced.
 Input: root = [3,9,20,null,null,15,7]
 Output: true
 Explanation: The binary tree is height-balanced.
+```
+
+### [Problem 111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+
+Given a binary tree, find its minimum depth.
+
+```
+Input: root = [3,9,20,null,null,15,7]
+Output: 2
+Explanation: The minimum depth is 2.
 ```
 
 ### [Problem 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
@@ -681,10 +730,26 @@ Explanation: The 2nd largest element is 5.
 Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
 ```
-
 Input: nums = [1,2,3,1]
 Output: true
+```
 
+### [Problem 219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
+
+Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k.
+
+```
+Input: nums = [1,2,3,1], k = 3
+Output: true
+```
+
+### [Problem 223. Rectangle Area](https://leetcode.com/problems/rectangle-area/)
+
+Find the total area covered by two rectilinear rectangles in a 2D plane. Each rectangle is defined by its bottom left corner and top right corner.
+
+```
+Input: ax1 = -3, ay1 = 0, ax2 = 3, ay2 = 4, bx1 = 0, by1 = -1, bx2 = 9, by2 = 2
+Output: 45
 ```
 
 ### [Problem 225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
@@ -896,6 +961,18 @@ Output: 4
 Explanation: Replace the two 'A's with two 'B's or vice versa.
 ```
 
+### [Problem 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+
+Given two strings s and p, return an array of all the start indices of p's anagrams in s. You may return the answer in any order.
+
+```
+Input: s = "cbaebabacd", p = "abc"
+Output: [0,6]
+
+Explanation: The substring with start index = 0 is "cba", which is an anagram of "abc".
+The substring with start index = 6 is "bac", which is an anagram of "abc".
+```
+
 ### [Problem 445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)
 
 You are given two non-empty linked lists representing two non-negative integers. The most significant digit comes first and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
@@ -961,6 +1038,16 @@ TinyURL is a URL shortening service where you enter a URL such as https://leetco
 ```
 Input: longUrl = "https://leetcode.com/problems/design-tinyurl"
 Output: "http://tinyurl.com/4e9iAk"
+```
+
+### [Problem 543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+
+Given the root of a binary tree, return the length of the diameter of the tree.
+
+```
+Input: root = [1,2,3,4,5]
+Output: 3
+Explanation: 3 is the length of the path [4,2,1,3] or [5,2,1,3].
 ```
 
 ### [Problem 622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
@@ -1081,16 +1168,43 @@ Explanation: The fractions to be considered in sorted order are:
 The third fraction is 2/5.
 ```
 
+### [Problem 796. Rotate String](https://leetcode.com/problems/rotate-string/)
+
+Given two strings s and goal, return true if and only if s can become goal after some number of shifts on s.
+
+A shift on s consists of moving the leftmost character of s to the rightmost position.
+
+For example, if s = "abcde", then it will be "bcdea" after one shift.
+
+```
+Input: s = "abcde", goal = "cdeab"
+Output: true
+
+Input: s = "abcde", goal = "abced"
+Output: false
+```
+
 ### [Problem 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 Given the head of a singly linked list, return the middle node of the linked list.
 
 ```
-
 Input: head = [1,2,3,4,5]
 Output: [3,4,5]
 Explanation: The middle node of the list is node 3.
+```
 
+### [Problem 881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)
+
+The i-th person has weight people[i], and each boat can carry a maximum weight of limit.
+Each boat carries at most 2 people at the same time, provided the sum of the weight of those people is at most limit.
+Return the minimum number of boats to carry every given person.
+
+```
+Input: people = [3,2,2,1], limit = 3
+Output: 3
+
+Explanation: 3 boats (1, 2), (2) and (3)
 ```
 
 ### [Problem 938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
@@ -1314,8 +1428,6 @@ Note that with i = 1 and j = 0, the difference nums[j] - nums[i] = 7 - 1 = 6, bu
 
 You are given two numbers a and b. You need to find the number of bits you need to flip to convert a to b. Note: All given integers are in binary form.
 
-```
-
 Input: a = 10, b = 20
 Output: 4
 Explanation:
@@ -1323,12 +1435,41 @@ a = 01010
 b = 10100
 As we can see, the bits of a that need to be flipped are 01010. If we flip these bits, we get 10100, which is b. Hence, the number of bits that need to be flipped is 4.
 
-```
-
-```
 
 X >> Y means x is shifted to the right by y bits. This is equivalent to dividing x by 2^y.
 e.g 8 >> 1 = 4 (1000 >> 1 = 0100)
+
+```
+
+### [Problem 2265. (Medium) Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/)
+
+Given the root of a binary tree, return the number of nodes where the value of the node is equal to the average of the values in its subtree.
+
+Note: The average of n elements is the sum of the n elements divided by n and rounded down to the nearest integer.
+
+A subtree of root is a tree consisting of root and all of its descendants.
+
+```
+Input: root = [4,8,5,0,1,null,6]
+Output: 5
+Explanation:
+For the node with value 4: The average of its subtree is (4 + 8 + 5 + 0 + 1 + 6) / 6 = 24 / 6 = 4.
+For the node with value 5: The average of its subtree is (5 + 6) / 2 = 11 / 2 = 5.
+For the node with value 0: The average of its subtree is 0 / 1 = 0.
+For the node with value 1: The average of its subtree is 1 / 1 = 1.
+For the node with value 6: The average of its subtree is 6 / 1 = 6.
+```
+
+### [Problem 2331. (Easy): Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/description/)
+
+```
+Input: root = [2,1,3,null,null,0,1]
+Output: true
+Explanation: The above diagram illustrates the evaluation process.
+The AND node evaluates to False AND True = False.
+The OR node evaluates to True OR False = True.
+The root node evaluates to True, so we return true.
+```
 
 ### [Problem 2236. Root equals sum of children](https://leetcode.com/problems/root-equals-sum-of-children/description/)
 
@@ -1410,4 +1551,83 @@ Explanation: We can pick 2 children in the following way:
 - Pick the child with the happiness value == 3. The happiness value of the remaining children becomes [0,1].
 - Pick the child with the happiness value == 1. The happiness value of the remaining child becomes [0]. Note that the happiness value cannot become less than 0.
 The sum of the happiness values of the selected children is 3 + 1 = 4.
+```
+
+### [Problem 3110. (Easy) Score of a String](https://leetcode.com/problems/score-of-a-string)
+
+```
+Input: s = "hello"
+
+Output: 13
+
+Explanation:
+
+The ASCII values of the characters in s are: 'h' = 104, 'e' = 101, 'l' = 108, 'o' = 111. So, the score of s would be |104 - 101| + |101 - 108| + |108 - 108| + |108 - 111| = 3 + 7 + 0 + 3 = 13
+```
+
+### Problem 3114. (Easy) Find the Score of All Prefixes of a String
+
+```
+Input: s = "1?:?4"
+
+Output: "11:54"
+
+Explanation: The latest 12-hour format time we can achieve by replacing "?" characters is "11:54".
+```
+
+### Problem 3120. Count the Number of Special Characters I
+
+You are given a string word. A letter is called special if it appears both in lowercase and uppercase in word.
+
+Return the number of special letters in word.
+
+```
+Input: word = "aaAbcBC"
+
+Output: 3
+
+Explanation:
+
+The special characters in word are 'a', 'b', and 'c'.
+```
+
+### Problem 3121. Count the Number of Special Characters II
+
+You are given a string word. A letter c is called special if it appears both in lowercase and uppercase in word, and every lowercase occurrence of c appears before the first uppercase occurrence of c.
+
+Return the number of special letters in word.
+
+Input: word = "aaAbcBC"
+
+Output: 3
+
+Explanation:
+
+The special characters are 'a', 'b', and 'c'.
+
+### Problem 3136. (Easy) Valid Word
+
+A word is considered valid if:
+
+It contains a minimum of 3 characters.
+It contains only digits (0-9), and English letters (uppercase and lowercase).
+It includes at least one vowel.
+It includes at least one consonant.
+You are given a string word.
+
+Return true if word is valid, otherwise, return false.
+
+Notes:
+
+'a', 'e', 'i', 'o', 'u', and their uppercases are vowels.
+A consonant is an English letter that is not a vowel.
+
+```
+Input: word = "234Adas"
+
+Output: true
+
+Explanation:
+
+This word satisfies the conditions.
 ```

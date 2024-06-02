@@ -1,4 +1,7 @@
 ### Problem 42. Trapping Rain Water (Hard): https://leetcode.com/problems/trapping-rain-water/
+### Tags: Array, Two Pointers, Stack
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 class Solution:
     def trap(self, height: List[int]) -> int:
         left_max = [0 for i in range(len(height))]

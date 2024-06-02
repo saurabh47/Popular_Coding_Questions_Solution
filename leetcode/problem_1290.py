@@ -15,6 +15,7 @@ class Solution:
             count += 1
         temp = head
         while(temp):
+            # result += temp.val* (2 ^ count)
             result += (temp.val << count)
             temp = temp.next
             count -=1 
